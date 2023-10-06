@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ad1tyaweb/static/css/main.7dc18314.css",
+    "main.js": "/ad1tyaweb/static/js/main.223bbb25.js",
+    "index.html": "/ad1tyaweb/index.html",
+    "main.7dc18314.css.map": "/ad1tyaweb/static/css/main.7dc18314.css.map",
+    "main.223bbb25.js.map": "/ad1tyaweb/static/js/main.223bbb25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc18314.css",
+    "static/js/main.223bbb25.js"
+  ]
+}
