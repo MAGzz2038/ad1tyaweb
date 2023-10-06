@@ -1,9 +1,10 @@
 .cards {
-    padding: 4rem;
-    background: #fff;
+    padding: 5rem;
+    background: #000000;
   }
   
   h1 {
+    color: #bdba0a;
     text-align: center;
   }
   
@@ -11,7 +12,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
+    max-width: 1250px;
     width: 90%;
     margin: 0 auto;
   }
@@ -39,7 +40,7 @@
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     text-decoration: none;
   }
@@ -49,11 +50,6 @@
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
-  }
-  
-  .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
   }
   
   .cards__item__img {
@@ -67,7 +63,7 @@
     max-width: 100%;
     height: 100%;
     max-height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     transition: all 0.2s linear;
   }
   
@@ -84,10 +80,37 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .cardsbtn{
+    color:  #bdba0a;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #bdba0a;
+    border-radius: 2px;
+    background: 0 0;
+    text-align: center;
+  }
+
+  .cardsbtn:hover{
+   color: rgb(0, 0, 0);
+   background-color: #bdba0a;
+    
+  }
+
+  .projectcards{
+    padding: 2rem;
+    background: #b1adad;
+  }
+  
+  
+  
+
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
-      width: 84%;
+      width: 100%;
     }
   }
   
@@ -99,6 +122,6 @@
   
   @media only screen and (max-width: 1024px) {
     .cards__item {
-      margin-bottom: 2rem;
+      margin-bottom:3rem;
     }
   }

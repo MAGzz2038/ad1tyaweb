@@ -6,17 +6,6 @@ import { Link } from 'react-router-dom';
 function Bottompage() {
   return (
     <div className='bottompage-container'>
-      
-      <div class='bottompage-links'>
-        <div className='bottompage-link-wrapper'>
-          <div class='bottompage-link-items'>
-           <Link to='/aboutme'> <h2>About Me</h2></Link>
-          </div>
-          <div class='bottompage-link-items'>
-            <h2>Contact Us</h2>
-          </div>
-        </div>
-      </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='bottompage-logo'>
@@ -25,7 +14,7 @@ function Bottompage() {
             </Link>
           </div>
           <div class='social-icons'>
-            <h1 className='bpagetext'>Social Media</h1>
+
 
             <a
               class='social-icon-link instagram'
@@ -48,11 +37,17 @@ function Bottompage() {
               >
              <i class="fa-brands fa-spotify"/>
             </a>
-
-
           </div>
         </div>
       </section>
+      <br/><br/>
+      <div><text className='btmpagetext'>Disclaimer: This is not AD1TYA's official website. This is a project made in React.js only for learning purposes. Developed by Anmol Manked. Github:-</text>
+      <a class='social-icon-link spotify'
+              aria-label='github'
+              href='https://github.com/MAGzz2038' target="_blank"
+                   rel="noopener noreferrer"
+              >
+             <i class="fa-brands fa-github"/><text className='btmpagetext'>MAGzz2038</text></a></div>
     </div>
   );
 }

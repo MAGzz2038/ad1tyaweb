@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+import './Pages.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Bottompage from '../Bottompage';
